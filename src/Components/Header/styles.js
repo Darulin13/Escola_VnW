@@ -108,6 +108,7 @@ export const Box = styled.div`
     width:50%;
     padding-bottom:50px;
     padding-top:50px;
+    
     @media(max-width:1848px){
         width:65%;
     }

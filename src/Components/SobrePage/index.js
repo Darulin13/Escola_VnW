@@ -17,11 +17,9 @@ export default function () {
             </S.Section>
         )
     }
-   
     return (
         <S.Container>
             {sobrePage()}
-          
         </S.Container>
     )
 }

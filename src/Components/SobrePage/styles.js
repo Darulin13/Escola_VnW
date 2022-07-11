@@ -23,13 +23,11 @@ export const Section = styled.section`
 `
 export const Logo = styled.img`
     width:20%;
-
     @media(max-width:2296px){
         width:25%;
     }
     @media(max-width: 1024px){
         width:50%;
-     
     }
 `
 export const Text = styled.div`
@@ -41,20 +39,16 @@ export const Text = styled.div`
     @media(max-width: 1024px){
         width:90%;
         padding-bottom:60px;
-      
     }
-    
 `
 
 export const Title = styled.h1`
     font-size:58px;
     color:#0F2260;
     padding-bottom:25px;
-
     @media(max-width:600px){
         font-size:30px;
     }
-    
 `
 export const Paragraph = styled.p`
     font-size:35px;

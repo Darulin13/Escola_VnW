@@ -1,7 +1,7 @@
 import React from "react"
 import * as S from "./styles";
 import Formação from "../Images/Formação.png"
-import Icon from  "../Images/Icon.jpg"
+import Icon from "../Images/Icon.jpg"
 export default function FormaçãoPage() {
     const FormaçãoPage = () => {
         return (
@@ -9,7 +9,7 @@ export default function FormaçãoPage() {
                 <S.Text_Box>
                     <S.Title>Formação</S.Title>
                     <S.Box>
-                    <S.Icon src={Icon} alt="Icon computador" />
+                        <S.Icon src={Icon} alt="Icon computador" />
                         <S.Text>
                             <S.Subtitle>FRONT-END</S.Subtitle>
                             <S.Paragraph>Quem trabalha com Front End é responsável por desenvolver por meio do código uma interface gráfica e, normalmente, com as tecnologias base da Web: HTML, CSS e JavaScript.</S.Paragraph>
