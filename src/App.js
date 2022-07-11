@@ -1,5 +1,7 @@
 import React from "react"
 import Header from "./Components/Header"
+import SobrePage from "./Components/SobrePage";
+import FormaçãoPage from "./Components/FormaçãoPage";
 import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   * {
@@ -16,6 +18,8 @@ export default function App() {
     <>
       <GlobalStyle />
       <Header/>
+      <SobrePage/>
+      <FormaçãoPage/>
     </>
   )
 }

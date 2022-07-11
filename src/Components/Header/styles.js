@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import background from "../Images/Background.png"
+
 export const Container = styled.header`
 width:100%;
 background-image:URL(${background});
@@ -74,9 +75,13 @@ export const Li = styled.li`
 //Title Page
 
 export const Section = styled.section`
-
     width:75%;
     padding-top:100px;
+
+    @media(max-width:1046px){
+        width:85%;
+     
+    }
   
 `
 export const Title = styled.h1`
@@ -90,6 +95,10 @@ export const Title = styled.h1`
     @media(max-width:1335px){
         font-size:40px;
     }
+    @media(max-width:1046px){
+        font-size:18px;
+        line-height:35px;
+    }
 
 
 `
@@ -101,6 +110,9 @@ export const Box = styled.div`
     padding-top:50px;
     @media(max-width:1848px){
         width:65%;
+    }
+    @media(max-width:1046px){
+        width:90%;
     }
 
 `
@@ -117,6 +129,10 @@ export const Link = styled.p`
     @media(max-width:1335px){
         font-size:20px;
     }
+    @media(max-width:1046px){
+        font-size:15px;
+    }
+
     
    
 `
