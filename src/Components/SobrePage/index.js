@@ -3,8 +3,8 @@ import * as S from "./styles";
 import Logo from "../Images/Grupo 18@2x.png"
 
 
-export default function () {
-    const sobrePage = () => {
+export default function SobrePage () {
+    const Sobre = () => {
         return (
             <S.Section>
                 <S.Logo src={Logo} alt="Logo VnW" />
@@ -19,7 +19,7 @@ export default function () {
     }
     return (
         <S.Container>
-            {sobrePage()}
+            {Sobre()}
         </S.Container>
     )
 }
