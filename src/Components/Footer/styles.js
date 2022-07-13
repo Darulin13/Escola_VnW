@@ -47,6 +47,7 @@ export const Paragraph = styled.p`
     width:35%;
     color:#FFFFFF;
     font-size:30px;
+    font-family: 'Montserrat', sans-serif;
     @media(max-width:2105px){
         font-size:25px;
     }
@@ -98,6 +99,7 @@ export const Icon = styled.img`
 export const Title = styled.h1`
     color:#FFFFFF;
     font-size:68px;
+    font-family: 'Montserrat', sans-serif;
     padding-bottom:150px;
     padding-top:50px;
     @media(max-width:494px){

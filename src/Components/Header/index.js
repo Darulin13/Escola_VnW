@@ -22,10 +22,15 @@ export default function Header() {
             <S.Section>
                 <S.Title>// Quer construir uma carreira de sucesso como Desenvolvedor(a) Front-end?</S.Title>
                 <S.Box>
+                    <S.Bolas>
+                        <S.Bola>.</S.Bola>
+                        <S.Bola>.</S.Bola>
+                        <S.Bola>.</S.Bola>
+                    </S.Bolas>
                     <h2>Inscreva-se no Vai na Web!</h2>
                     <p>Inscrições 02 a 21 de Agosto</p>
                 </S.Box>
-                <S.Link>Link para o formulário: bit.ly/CarreiraVaiNaWeb</S.Link>
+                <S.Link>Link para o formulário:<a href="bit.ly/CarreiraVaiNaWeb" target="_blank">  bit.ly/CarreiraVaiNaWeb</a></S.Link>
             </S.Section>
         )
     }

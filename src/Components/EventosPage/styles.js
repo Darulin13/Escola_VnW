@@ -17,6 +17,7 @@ export const Section = styled.section`
 `
 export const Title = styled.h1`
     font-size:58px;
+    font-family: 'Montserrat', sans-serif;
     color:#0F2260;
     padding-left:7vw;
     @media(max-width:768px){
@@ -78,6 +79,7 @@ export const Text = styled.div`
 `
 export const Subtitle = styled.h2`
     font-size:2.5vw;
+    font-family: 'Montserrat', sans-serif;
     color:#0F2260;
     padding-bottom:2vw;
     @media(max-width:1776px){
@@ -92,6 +94,7 @@ export const Paragraph = styled.p`
     font-size:1vw;
     color:#000000;
     text-align:start;
+    font-family: 'Montserrat', sans-serif;
     @media(max-width:1776px){
         font-size:1.05vw;
     }

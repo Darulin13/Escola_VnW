@@ -15,6 +15,7 @@ export const Section = styled.section`
    flex-direction:row;
    justify-content:space-between;
    align-items:center;
+   padding-bottom:10vw;
    @media(max-width:802px){
     flex-direction:column;
    }
@@ -51,6 +52,7 @@ export const Box = styled.div`
 `
 export const Title = styled.h1`
     font-size:58px;
+    font-family: 'Montserrat', sans-serif;
     color:#0F2260;
     padding-bottom:20px;
     align-self:start;
@@ -77,6 +79,7 @@ export const Text  = styled.article`
 `
 export const Subtitle = styled.h2`
     font-size:38px;
+    font-family: 'Montserrat', sans-serif;
     color:#0F2260;
     padding-bottom:15px;
     @media(max-width:1724px){
@@ -93,6 +96,7 @@ export const Subtitle = styled.h2`
 `
 export const Paragraph = styled.p`
     font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
     padding-bottom:30px;
     @media(max-width:1996px){
         font-size: 25px;
